@@ -1,12 +1,6 @@
 function formatDuration (seconds) {
   let remainder = seconds
-  let times = {
-    year: 31536000,
-    day: 86400,
-    hour: 3600,
-    minute: 60,
-    second: 1
-  }
+  let times = {year: 31536000, day: 86400, hour: 3600, minute: 60, second: 1}
   
   if (seconds === 0) {return "now"}
   
